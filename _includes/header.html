@@ -1,14 +1,15 @@
+
 <header class="site-header" role="banner">
 
   <div class="container-fluid">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-5 offset-lg-1">
         <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="site-header_logo"
             src="/images/search-care-logo.svg" alt=""></a>
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-5 ">
         {%- if page_paths -%}
         <nav class="site-nav float-lg-right">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
