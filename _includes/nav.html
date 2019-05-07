@@ -1,7 +1,16 @@
 <div class="trigger ">
-    <a class="page-link" href="/">Home</a>
-    <a class="page-link" href="/searching/">Searching</a>
-    <a class="page-link" href="/memorials/">Memorials</a>
-    <a class="page-link" href="/support/">Support</a>
-    <a class="page-link" href="/check-list/">Check List</a>
+    <!-- <a class="page-link" href="/">Home</a>
+    <a class="page-link" href="/memorials/">Memorials & Media</a>
+    <a class="page-link" href="/self-care/">Self Care</a>
+    <a class="page-link" href="/safe-search/">Safe Search</a> -->
+    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+    {% for p in navigation_pages %}
+    {% if p.navigation_weight %}
+        <a class="page-link {% if p.url == page.url %}active{% endif %}" href="{{ p.url }}" >
+            {{ p.title }}
+        </a>
+    {% endif %}
+    {% endfor %}
 </div>
+
+

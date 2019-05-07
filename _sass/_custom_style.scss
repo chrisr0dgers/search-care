@@ -199,6 +199,11 @@ h1,h2,h3,h4,h5{
     label{
         display: none;
     }
+    .active{
+        color: $green;
+        font-weight: 700;
+        border-bottom: 2px solid $green;
+    }
 }
 
 .site-header{
@@ -245,6 +250,7 @@ h1,h2,h3,h4,h5{
                     position: absolute;
                     content: url('../images/nav-heart@2x.png');
                     right: -11px;
+                    top: -3px;
                 }
             }
             &:last-of-type{
@@ -259,3 +265,54 @@ h1,h2,h3,h4,h5{
 }
 
 //footer end
+
+//Inside Header
+
+.insideHeader{
+    color: #fff;
+    padding: 70px 0;
+    &.red{
+        background-color: $red;
+    }
+    &.green{
+        background-color: $green;
+    }
+    &.yellow{
+        background-color: $yellow;
+    }
+    &_content{
+        padding-top: 40px;
+    }
+}
+
+//Inside Header end
+
+
+//Services
+
+.services{
+    &_single{
+        background-color: #fff;
+        padding: 60px;
+        p{
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img{
+            margin-bottom: 20px;
+            // width: 100px;
+        }
+        &:nth-of-type(4n+2),&:nth-of-type(4n+3){
+            background-color: $grey;
+        }
+        a{
+            font-weight: 700;
+            color: $black;
+            text-transform: uppercase;
+            font-size: 1.188em;
+        }
+    }
+}
+
+//Services END
