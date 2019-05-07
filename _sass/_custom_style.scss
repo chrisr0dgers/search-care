@@ -152,6 +152,9 @@ h1,h2,h3,h4,h5{
         color: #fff;
         padding-top: 20px;
         padding-bottom: 20px;
+        h2{
+            margin-bottom: 0;
+        }
     }
     &_text{
         padding-top: 30px;
