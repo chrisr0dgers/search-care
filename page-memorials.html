@@ -17,47 +17,50 @@ navigation_weight: 2
     </div>
 </div>
 
-
-
-
-        <div class="accordion" id="accordionExample">
-            <div class="container-fluid">
-                <div class="row">
-                    {% assign counttwo = 1 %}
-                    {% for memorial_single in site.data.memorial_content %}
-                    <div class="col-lg-12">
-                        <div id="collapse{{counttwo}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="services_single">
-                                <h2>{{memorial_single.service}}</h2>
-                                <p>{{memorial_single.blurb}}</p>
-                                <p>{{memorial_single.content}}</p>
-                            </div>
-                        </div>
-                    </div>
-                    {% assign counttwo = counttwo | plus: 1 %}
-                    {% endfor %}
-                </div>
-            </div>
-
-            <div class="container-fluid services">
-                <div class="row">
-                    {% assign count = 1 %}
-                    {% for memorial_single in site.data.memorial_content %}
-            
-                    <div class="col-md-6 services_btn text-center position-relative">
-                        <img src="{{memorial_single.icon}}" alt="">
-                        <h3>{{memorial_single.service}}</h3>
+<div class="accordion" id="accordionExample">
+    <div class="container-fluid">
+        <div class="row">
+            {% assign counttwo = 1 %}
+            {% for memorial_single in site.data.memorial_content %}
+            <div class="col-lg-12">
+                <div id="collapse{{counttwo}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="services_single">
+                        <h2>{{memorial_single.service}}</h2>
                         <p>{{memorial_single.blurb}}</p>
-                        <a href="">MORE</a>
-                        <a type="button" data-toggle="collapse" data-target="#collapse{{count}}"
-                        aria-expanded="true" aria-controls="collapse{{count}}" class="hiddenLink"></a>
+                        <p>{{memorial_single.content}}</p>
                     </div>
-                    {% assign count = count | plus: 1 %}
-                    {% endfor %}
-            
                 </div>
             </div>
+            {% assign counttwo = counttwo | plus: 1 %}
+            {% endfor %}
         </div>
+    </div>
+
+    <div class="container-fluid services">
+        <div class="row">
+            {% assign count = 1 %}
+            {% for memorial_single in site.data.memorial_content %}
+    
+            <div class="col-md-6 services_btn text-center position-relative">
+                <img src="{{memorial_single.icon}}" alt="">
+                <h3>{{memorial_single.service}}</h3>
+                <p>{{memorial_single.blurb}}</p>
+                <a href="">MORE</a>
+                <a type="button" data-toggle="collapse" data-target="#collapse{{count}}"
+                aria-expanded="true" aria-controls="collapse{{count}}" class="hiddenLink services collapsed"></a>
+            </div>
+            {% assign count = count | plus: 1 %}
+            {% endfor %}
+    
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    {%- include self-care.html -%}
+    {%- include safe-search.html -%}
+</div>
+
 
 <!-- 
 <div class="container-fluid">

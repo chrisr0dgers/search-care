@@ -64,8 +64,32 @@ h1,h2,h3,h4,h5{
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0;
+    transition: all 0.4s ease-out;
+    &.services{
+        opacity: 0.5;
+        background-color: gray;
+        -webkit-appearance: unset;
+    }
+    &.collapsed{
+        opacity: 0;
+        background-color: transparent;
+        transition: all 0.4s ease-out;
+        // -webkit-appearance: unset;
+    }
 }
+
+// .accordion{
+//     $parent: &;
+//     .collapse{
+//         &.show{
+//             #{$parent}{
+//                 .hiddenLink{
+
+//                 }
+//             }
+//         }
+//     } 
+// }
 
 //homepage
 
@@ -317,8 +341,24 @@ h1,h2,h3,h4,h5{
             font-size: 1.188em;
         }
     }
+    &_dl{
+        padding: 14px 60px;
+        color: #fff;
+        display: table;
+        width: fit-content;
+        h3{
+            line-height: 1;
+            margin-bottom: 0;
+        }
+        &.orange{
+            background-color: $orange;
+        }
+        &.green{
+            background-color: $green;
+        }
+    }
     &_single{
-        padding: 20px;
+        padding: 90px 0;
     }
 }
 
