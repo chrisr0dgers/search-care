@@ -22,7 +22,7 @@ navigation_weight: 1
                 Introduction. Lorem ipsum
                 dolor sit amet, consectetuer</p>
                 <img src="/images/arrow-right@2x.png" alt="">
-                <a class="hiddenLink" href="/"></a>
+                <a class="hiddenLink" href="/self-care/"></a>
         </div>
         <div class="text-center col-lg-3 position-relative">
             <img src="/images/safesearch-icon@2x.png" alt="">
@@ -31,7 +31,7 @@ navigation_weight: 1
                 Introduction. Lorem ipsum
                 dolor sit amet, consectetuer</p>
                 <img src="/images/arrow-right@2x.png" alt="">
-                <a class="hiddenLink" href="/"></a>
+                <a class="hiddenLink" href="/safe-search/"></a>
         </div>
         <div class="text-center col-lg-3 position-relative">
             <img src="/images/memorial-icon@2x.png" alt="">
@@ -40,11 +40,13 @@ navigation_weight: 1
                 Introduction. Lorem ipsum
                 dolor sit amet, consectetuer</p>
                 <img src="/images/arrow-right@2x.png" alt="">
-                <a class="hiddenLink" href="/"></a>
+                <a class="hiddenLink" href="/memorials/"></a>
         </div>
     </div>
 </div>
+
     <br>
+
 <div class="container-fluid">
     <div class="row ">
         <div class="col-lg-6 box_green introBox position-relative">
@@ -64,7 +66,46 @@ navigation_weight: 1
     </div>
 </div>
 
-<br>
+
+<div class="container-fluid">
+    <div class="col-lg-11 offset-lg-1">
+        <br>
+        <br>
+        <h2 class="fontColor--green">During the search</h2>
+    </div>
+    {% for comic_strip in site.data.comic %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+            <div class="row comic_single">
+                <div class="col-lg-6 offset-lg-1 hideme">
+                    <h2>{{ comic_strip.comic }}</h2>
+                    <p>{{ comic_strip.body }}</p>
+                    <div>
+                        {% if comic_strip.extra %}
+                            <p>{{ comic_strip.extra }}</p>
+                        {% endif %}
+                    </div>
+
+                </div>
+                <div class="col-lg-4  hideme">
+                    <img src="{{ comic_strip.image }}" alt="">
+                </div>
+            </div>
+        {% else %}
+            <div class="row comic_single">
+                <div class="col-lg-4 offset-lg-1 hideme">
+                    <img src="{{ comic_strip.image }}" alt="">
+                </div>
+                <div class="col-lg-6 hideme">
+                    <h2>{{ comic_strip.comic }}</h2>
+                    <p>{{ comic_strip.body }}</p>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+    
+</div>
+
 <div class="container-fluid">
     <div class="row searchRoles">
         <!-- <div class=""> -->
@@ -261,10 +302,8 @@ navigation_weight: 1
 <div class="container-fluid">
         {%- include memorials.html -%}
         {%- include self-care.html -%}
-        {%- include safe-search.html -%}       
+        {%- include safe-search.html -%}   
 </div>
-
-
 
 
 
