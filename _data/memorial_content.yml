@@ -1,0 +1,47 @@
+- service: 'Vulnerable People'
+  icon: /images/temp/temp-red.png
+  blurb: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  content: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+
+
+- service: 'Dealing with the Media'
+  icon: /images/temp/temp-red.png
+  blurb: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  content: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+
+
+- service: 'Social Media Dos & Don’ts'
+  icon: /images/temp/temp-red.png
+  blurb: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  content: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+
+
+- service: 'Elected Representatives'
+  icon: /images/temp/temp-red.png
+  blurb: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  content: |
+        Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
+
+
+- service: 'Issues with Memorials'
+  icon: /images/temp/temp-red.png
+  blurb: |
+      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  content: |
+      Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
+      
+
+- service: 'Remembering loved ones'
+  icon: /images/temp/temp-red.png
+  blurb: |
+      There are safe ways to remembering a loved one.
+  content: |
+      Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
+      

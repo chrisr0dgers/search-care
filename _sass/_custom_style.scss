@@ -64,6 +64,7 @@ h1,h2,h3,h4,h5{
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0;
 }
 
 //homepage
@@ -294,7 +295,7 @@ h1,h2,h3,h4,h5{
 //Services
 
 .services{
-    &_single{
+    &_btn{
         background-color: #fff;
         padding: 60px;
         p{
@@ -316,6 +317,9 @@ h1,h2,h3,h4,h5{
             font-size: 1.188em;
         }
     }
+    &_single{
+        padding: 20px;
+    }
 }
 
 //Services END
@@ -329,6 +333,21 @@ h1,h2,h3,h4,h5{
 .comic{
     &_single{
         padding: 40px 0;
+        &_extra{
+            color: $orange;
+            font-weight: 700;
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    list-style: none;
+                }
+            }
+            img{
+                float: left;
+                margin-top: 6px;
+            }
+        }
     }
 }
 

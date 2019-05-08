@@ -15,7 +15,7 @@ navigation_weight: 1
     <br>
     
     <div class="row d-flex justify-content-center">
-        <div class="text-center col-lg-3 position-relative">
+        <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
             <img src="/images/selfcare-icon@2x.png" alt="">
             <h3 class="fontColor--yellow">Self Care</h3>
             <p>adipiscing elit, sed diam
@@ -24,7 +24,7 @@ navigation_weight: 1
                 <img src="/images/arrow-right@2x.png" alt="">
                 <a class="hiddenLink" href="/self-care/"></a>
         </div>
-        <div class="text-center col-lg-3 position-relative">
+        <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
             <img src="/images/safesearch-icon@2x.png" alt="">
             <h3 class="fontColor--green">Safe Search</h3>
             <p>adipiscing elit, sed diam
@@ -33,7 +33,7 @@ navigation_weight: 1
                 <img src="/images/arrow-right@2x.png" alt="">
                 <a class="hiddenLink" href="/safe-search/"></a>
         </div>
-        <div class="text-center col-lg-3 position-relative">
+        <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
             <img src="/images/memorial-icon@2x.png" alt="">
             <h3 class="fontColor--orange">Memorials & Media</h3>
             <p>adipiscing elit, sed diam
@@ -49,7 +49,7 @@ navigation_weight: 1
 
 <div class="container-fluid">
     <div class="row ">
-        <div class="col-lg-6 box_green introBox position-relative">
+        <div class="col-lg-6 col-md-6 box_green introBox position-relative">
             <h3>Search Care</h3>
             <p>There are so many factors that go into a search of your loved one. The aim of this platform is to help you
                 understand
@@ -57,7 +57,7 @@ navigation_weight: 1
             </p>
             <a class="hiddenLink" href="/"></a>
         </div>
-        <div class="col-md-6 box_red introBox text-center position-relative">
+        <div class="col-lg-6 col-md-6 box_red introBox text-center position-relative">
             <h3>Did you know?</h3>
             <img src="/images/logo-white.svg" alt="">
             <p><span>Unauthorised searches <br> can adversly effect <br> professional searches.</span></p>
@@ -77,28 +77,42 @@ navigation_weight: 1
         {% assign mod = forloop.index | modulo: 2 %}
         {% if mod == 0 %}
             <div class="row comic_single">
-                <div class="col-lg-6 offset-lg-1 hideme">
+                <div class="col-lg-6 offset-lg-1 col-md-6 hideme">
                     <h2>{{ comic_strip.comic }}</h2>
                     <p>{{ comic_strip.body }}</p>
-                    <div>
+                    <div class="comic_single_extra">
                         {% if comic_strip.extra %}
-                            <p>{{ comic_strip.extra }}</p>
+                            <ul class="row">
+                                <li class="col-lg-3 col-md-3"><img class="w-100" src="/images/orange-logo.svg" alt=""></li>
+                                <li class="col-lg-9 col-md-9">
+                                    <p>{{ comic_strip.extra }}</p>
+                                </li>
+                            </ul>
                         {% endif %}
                     </div>
-
                 </div>
-                <div class="col-lg-4  hideme">
+                <div class="col-lg-4 col-md-6 hideme">
                     <img src="{{ comic_strip.image }}" alt="">
                 </div>
             </div>
         {% else %}
             <div class="row comic_single">
-                <div class="col-lg-4 offset-lg-1 hideme">
+                <div class="col-lg-4 offset-lg-1 col-md-6 hideme">
                     <img src="{{ comic_strip.image }}" alt="">
                 </div>
-                <div class="col-lg-6 hideme">
+                <div class="col-lg-6 col-md-6 hideme">
                     <h2>{{ comic_strip.comic }}</h2>
                     <p>{{ comic_strip.body }}</p>
+                    <div class="comic_single_extra">
+                        {% if comic_strip.extra %}
+                        <ul class="row">
+                            <li class="col-lg-3 col-md-3"><img class="w-100" src="/images/orange-logo.svg" alt=""></li>
+                            <li class="col-lg-9 col-md-9">
+                                <p>{{ comic_strip.extra }}</p>
+                            </li>
+                        </ul>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         {% endif %}
@@ -112,7 +126,7 @@ navigation_weight: 1
             <div class="col-lg-11 offset-lg-1 searchRoles_title">
                 <h2>Search Roles</h2>
             </div>
-            <div class="searchRoles_single col-md-4 offset-md-1 text-center">
+            <div class="searchRoles_single col-lg-4 col-md-4 col-sm-6 offset-lg-1 offset-md-1 text-center">
                 <img src="/images/temp-partner@2x.png" alt="">
                 <h3>Surveillance of the River</h3>
                 <p>Introduction. Lorem ipsum dolor sit amet, consectetuer
@@ -122,7 +136,7 @@ navigation_weight: 1
                     adipiscing elit, sed diam</p>
                 <a href="">More</a>
             </div>
-            <div class="searchRoles_single col-md-4 offset-md-2 text-center">
+            <div class="searchRoles_single col-lg-4 col-md-4 col-sm-6 offset-lg-2 offset-md-2 text-center">
                 <img src="/images/temp-partner@2x.png" alt="">
                 <h3>First Contact</h3>
                 <p>Introduction. Lorem ipsum dolor sit amet, consectetuer
@@ -132,7 +146,7 @@ navigation_weight: 1
                     adipiscing elit, sed diam</p>
                 <a href="">More</a>
             </div>
-            <div class="searchRoles_single col-md-4 offset-md-1 text-center">
+            <div class="searchRoles_single col-lg-4 col-md-4 col-sm-6 offset-lg-1 offset-md-1 text-center">
                 <img src="/images/temp-partner@2x.png" alt="">
                 <h3>Family Support</h3>
                 <p>Introduction. Lorem ipsum dolor sit amet, consectetuer
@@ -142,7 +156,7 @@ navigation_weight: 1
                     adipiscing elit, sed diam</p>
                 <a href="">More</a>
             </div>
-            <div class="searchRoles_single col-md-4 offset-md-2 text-center">
+            <div class="searchRoles_single col-lg-4 col-md-4 col-sm-6 offset-lg-2 offset-md-2 text-center">
                 <img src="/images/temp-partner@2x.png" alt="">
                 <h3>Vulnerable People Support</h3>
                 <p>Introduction. Lorem ipsum dolor sit amet, consectetuer
@@ -160,13 +174,13 @@ navigation_weight: 1
 <div class="container-fluid">
     <div class="partners">
         <div class="row partners_title">
-                <div class="col-lg-10 offset-lg-1">
-                    <h2>Search Partners</h2>
-                </div>
+            <div class="col-lg-10 offset-lg-1 col-md-12">
+                <h2>Search Partners</h2>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-10 offset-lg-1 partners_text">
+            <div class="col-lg-10 offset-lg-1 col-md-12 partners_text">
                 <p>adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                     Introduction.
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamadipiscing elit, sed diam Introduction. Lorem
@@ -177,124 +191,23 @@ navigation_weight: 1
             </div>
         </div>
 
-        <div class="partners_single row">
-            <div class="col-lg-2 offset-lg-1 offset-md-1">
-                <img src="/images/temp-partner@2x.png" alt="">
+        {% for partner in site.data.partners %}
+            <div class="partners_single row">
+                <div class="col-lg-2 offset-lg-1 offset-md-1">
+                    <img src="{{ partner.logo }}" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h4 class="fontColor--green">{{ partner.partner }}</h4>
+                    <p>{{ partner.body }}</p>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;{{ partner.phone }}</li>
+                        <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;{{ partner.email }}</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-5">
-                <h4 class="fontColor--green">FSR</h4>
-                <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit
-                amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam</p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
-                    <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;02890 9832 4732</li>
-                    <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;info@fsr.com</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="partners_single row">
-            <div class="col-lg-2 offset-lg-1 offset-md-1">
-                <img src="/images/temp-partner@2x.png" alt="">
-            </div>
-            <div class="col-lg-5">
-                <h4 class="fontColor--green">PSNI</h4>
-                <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum
-                    dolor sit
-                    amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed
-                    diam</p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
-                    <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;02890 9832 4732</li>
-                    <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;info@psni.com</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="partners_single row">
-            <div class="col-lg-2 offset-lg-1 offset-md-1">
-                <img src="/images/temp-partner@2x.png" alt="">
-            </div>
-            <div class="col-lg-5">
-                <h4 class="fontColor--green">CCI</h4>
-                <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum
-                    dolor sit
-                    amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed
-                    diam</p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
-                    <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;02890 9832 4732</li>
-                    <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;info@cci.com</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="partners_single row">
-            <div class="col-lg-2 offset-lg-1 offset-md-1">
-                <img src="/images/temp-partner@2x.png" alt="">
-            </div>
-            <div class="col-lg-5">
-                <h4 class="fontColor--green">PHA</h4>
-                <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum
-                    dolor sit
-                    amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed
-                    diam</p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
-                    <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;02890 9832 4732</li>
-                    <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;info@pha.com</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="partners_single row">
-            <div class="col-lg-2 offset-lg-1 offset-md-1">
-                <img src="/images/temp-partner@2x.png" alt="">
-            </div>
-            <div class="col-lg-5">
-                <h4 class="fontColor--green">WHSCT</h4>
-                <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum
-                    dolor sit
-                    amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed
-                    diam</p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
-                    <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;02890 9832 4732</li>
-                    <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;info@whsct.com</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="partners_single row">
-            <div class="col-lg-2 offset-lg-1 offset-md-1">
-                <img src="/images/temp-partner@2x.png" alt="">
-            </div>
-            <div class="col-lg-5">
-                <h4 class="fontColor--green">F&R</h4>
-                <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum
-                    dolor sit
-                    amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed
-                    diam</p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
-                    <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;02890 9832 4732</li>
-                    <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;info@f&r.com</li>
-                </ul>
-            </div>
-        </div>
-
+        {% endfor %}
         
     </div>
 </div>
