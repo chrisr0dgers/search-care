@@ -73,40 +73,60 @@ navigation_weight: 1
         <br>
         <h2 class="fontColor--green">During the search</h2>
     </div>
-    {% for comic_strip in site.data.comic %}
+
+    <div class="row comic_single">
+        <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-8 hideme">
+            <img src="/images/temp/comic-1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-4 hideme">
+            <img src="/images/temp/comic-2.png" alt="">
+        </div>
+    </div>
+
+    <div class="row comic_single">
+        <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-8 hideme">
+            <img src="/images/temp/comic-3.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-4 hideme">
+            <img src="/images/temp/comic-4.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- {% for comic_strip in site.data.comic %}
         {% assign mod = forloop.index | modulo: 2 %}
         {% if mod == 0 %}
             <div class="row comic_single">
-                <div class="col-lg-6 offset-lg-1 col-md-6 hideme">
+                <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-8 hideme">
                     <h2>{{ comic_strip.comic }}</h2>
                     <p>{{ comic_strip.body }}</p>
                     <div class="comic_single_extra">
                         {% if comic_strip.extra %}
                             <ul class="row">
-                                <li class="col-lg-3 col-md-3"><img class="w-100" src="/images/orange-logo.svg" alt=""></li>
-                                <li class="col-lg-9 col-md-9">
+                                <li class="col-lg-3 col-md-3 col-sm-2 d-none d-sm-block"><img class="w-100" src="/images/orange-logo.svg" alt=""></li>
+                                <li class="col-lg-9 col-md-9 col-sm-10">
                                     <p>{{ comic_strip.extra }}</p>
                                 </li>
                             </ul>
                         {% endif %}
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 hideme">
+                <div class="col-lg-4 col-md-6 col-sm-4 hideme">
                     <img src="{{ comic_strip.image }}" alt="">
                 </div>
             </div>
         {% else %}
             <div class="row comic_single">
-                <div class="col-lg-4 offset-lg-1 col-md-6 hideme">
+                <div class="col-lg-4 offset-lg-1 col-md-6 col-sm-4 hideme">
                     <img src="{{ comic_strip.image }}" alt="">
                 </div>
-                <div class="col-lg-6 col-md-6 hideme">
+                <div class="col-lg-6 col-md-6 col-sm-8 hideme">
                     <h2>{{ comic_strip.comic }}</h2>
                     <p>{{ comic_strip.body }}</p>
                     <div class="comic_single_extra">
                         {% if comic_strip.extra %}
                         <ul class="row">
-                            <li class="col-lg-3 col-md-3"><img class="w-100" src="/images/orange-logo.svg" alt=""></li>
+                            <li class="col-lg-3 col-md-3 col-sm-2 d-none d-sm-block""><img class="w-100" src="/images/orange-logo.svg" alt=""></li>
                             <li class="col-lg-9 col-md-9">
                                 <p>{{ comic_strip.extra }}</p>
                             </li>
@@ -116,7 +136,7 @@ navigation_weight: 1
                 </div>
             </div>
         {% endif %}
-    {% endfor %}
+    {% endfor %} -->
     
 </div>
 
@@ -193,17 +213,17 @@ navigation_weight: 1
 
         {% for partner in site.data.partners %}
             <div class="partners_single row">
-                <div class="col-lg-2 offset-lg-1 offset-md-1">
+                <div class="col-lg-2 offset-lg-1 col-md-2 col-sm-3">
                     <img src="{{ partner.logo }}" alt="">
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-5 col-sm-8">
                     <h4 class="fontColor--green">{{ partner.partner }}</h4>
                     <p>{{ partner.body }}</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-9 offset-lg-0 offset-md-0 offset-sm-3">
                     <ul>
-                        <li><img src="/images/phone-icon@2x.png" alt="">&nbsp;&nbsp;{{ partner.phone }}</li>
-                        <li><img src="/images/email-icon@2x.png" alt="">&nbsp;&nbsp;{{ partner.email }}</li>
+                        <li><img src="/images/phone-icon.svg" alt="">&nbsp;&nbsp;<a href="tel:{{ partner.email }}">{{ partner.phone }}</a></li>
+                        <li><img src="/images/email-icon.svg" alt="">&nbsp;&nbsp;<a href="mailto:{{ partner.email }}">{{ partner.email }}</a></li>
                     </ul>
                 </div>
             </div>

@@ -130,6 +130,10 @@ h1,h2,h3,h4,h5{
             }
         }
     }
+    &--arrow{
+        max-width: 25px;
+        width: 100%;
+    }
 }
 
 .selfCareLink{
@@ -208,7 +212,13 @@ h1,h2,h3,h4,h5{
                 font-weight: 700;
                 margin-bottom: 10px;
                 font-size: 1.500em;
+                img{
+                    max-width: 30px;
+                }
             }
+        }
+        a{
+            color: inherit;
         }
     }
 }
@@ -222,6 +232,10 @@ h1,h2,h3,h4,h5{
 //homepage end
 
 //Header
+
+.site-nav{
+    z-index: 1;
+}
 
 .site-nav{
     label{
@@ -276,9 +290,10 @@ h1,h2,h3,h4,h5{
                 color: $black;
                 &:after{
                     position: absolute;
-                    content: url('../images/nav-heart@2x.png');
-                    right: -11px;
+                    content: url('../images/nav-heart.svg');
+                    right: -16px;
                     top: -3px;
+                    width: 11px;
                 }
             }
             &:last-of-type{

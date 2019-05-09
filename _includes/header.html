@@ -5,13 +5,13 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="row">
-      <div class="col-lg-5 offset-lg-1">
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="site-header_logo"
+      <div class="col-lg-4 offset-lg-1 col-md-5 col-sm-12 col-8 text-sm-center">
+        <a class="site-title m-sm-auto float-sm-none float-md-left" rel="author" href="{{ "/" | relative_url }}"><img class="site-header_logo"
             src="/images/search-care-logo.svg" alt=""></a>
       </div>
-      <div class="col-lg-5 ">
+      <div class="col-lg-6 col-md-7 col-sm-12 col-4 text-sm-center">
         {%- if page_paths -%}
-        <nav class="site-nav float-lg-right">
+        <nav class="site-nav float-lg-right float-none">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
             <span class="menu-icon">
