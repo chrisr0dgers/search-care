@@ -21,28 +21,51 @@ navigation_weight: 3
 </div>
 
 
-<div class="container-fluid services">
-    <div class="row">
-        <div class="col-md-6 services_single text-center">
-            <img src="/images/temp/temp-yellow.png" alt="">
-            <h3>Vulnerable People</h3>
-            <p>It is normal that those associated with the missing person would experience emotional pain and
-                demonstrate signs of
-                distress; however, it is important to check with the person how they are feeling.</p>
-            <a href="">MORE</a>
-        </div>
-        <div class="col-md-6 services_single text-center">
-            <img src="/images/temp/temp-yellow.png" alt="">
-            <h3>Dealing with the Media</h3>
-            <p>Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem
-                ipsum dolor sit
-                amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit,
-                sed diam</p>
-            <a href="">MORE</a>
-        </div>
+<div class="accordion" id="accordionExample">
+    <div class="container-fluid">
+        <div class="row">
+            {% assign counttwo = 1 %}
+            {% for selfcare_single in site.data.selfcare_content %}
+            <div id="fullContent" class="col-lg-10 offset-lg-1">
+                <div id="collapse{{counttwo}}" class="collapse " aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="services_single">
+                        <h1>{{selfcare_single.service}}</h1>
+                        <p>{{selfcare_single.blurb}}</p>
+                        <p>{{selfcare_single.content}}</p>
+                        {% if selfcare_single.download %}
+                        <div class="services_dl green position-relative">
+                            <h3>Download</h3>
+                            <a class="hiddenLink" href="{{selfcare_single.download}}"></a>
+                        </div>
 
+                        {% endif %}
 
+                    </div>
+                </div>
+            </div>
+            {% assign counttwo = counttwo | plus: 1 %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="container-fluid services">
+        <div class="row">
+            {% assign count = 1 %}
+            {% for selfcare_single in site.data.selfcare_content %}
+
+            <div class="col-md-6 services_btn text-center position-relative">
+                <img src="{{selfcare_single.icon}}" alt="">
+                <h3>{{selfcare_single.service}}</h3>
+                <p>{{selfcare_single.blurb}}</p>
+                <a href="">MORE</a>
+                <a type="button" data-toggle="collapse" data-target="#collapse{{count}}" aria-expanded="true"
+                    aria-controls="collapse{{count}}" class="hiddenLink services collapsed"></a>
+            </div>
+            {% assign count = count | plus: 1 %}
+            {% endfor %}
+
+        </div>
     </div>
 </div>
 

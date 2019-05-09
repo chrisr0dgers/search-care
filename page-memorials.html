@@ -22,7 +22,7 @@ navigation_weight: 2
         <div class="row">
             {% assign counttwo = 1 %}
             {% for memorial_single in site.data.memorial_content %}
-            <div class="col-lg-12">
+            <div id="fullContent" class="col-lg-10 offset-lg-1">
                 <div id="collapse{{counttwo}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="services_single">
                         <h2>{{memorial_single.service}}</h2>
@@ -47,7 +47,7 @@ navigation_weight: 2
                 <p>{{memorial_single.blurb}}</p>
                 <a href="">MORE</a>
                 <a type="button" data-toggle="collapse" data-target="#collapse{{count}}"
-                aria-expanded="true" aria-controls="collapse{{count}}" class="hiddenLink services collapsed"></a>
+                aria-expanded="false" aria-controls="collapse{{count}}" class="hiddenLink services collapsed"></a>
             </div>
             {% assign count = count | plus: 1 %}
             {% endfor %}

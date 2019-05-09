@@ -25,3 +25,11 @@ $(document).ready(function () {
     });
 
 });
+
+
+$('.collapse').on('shown.bs.collapse', function (e) {
+    var $card = $(this).closest('#fullContent');
+    $('html,body').animate({
+        scrollTop: $card.offset().top
+    }, 500);
+});

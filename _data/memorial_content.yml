@@ -9,33 +9,49 @@
 - service: 'Dealing with the Media'
   icon: /images/temp/temp-red.png
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      In cases of suspected suicide or undetermined intent the Samaritans’ Media Guidance for the discussion and reporting of suicide 1 should be applied. The key messages from the guidelines are
   content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        1. Think about the impact of the coverage on your audience <br/>
+        2. Exercise caution when referring to the methods and context of the death <br/>
+        3. Avoid over simplification <br/>
+        4. Avoid melodramatic descriptors of the death and/or its aftermath <br/>
+        5. Aim for non-sensational, sensitive coverage <br/>
+        6. Consider carefully the placement and illustration of media reports <br/>
+        7. Educate and Inform <br/><br/>
+
+        The media guidelines should be applied in all media interaction and correspondence relating to the details of the incident and any related searches, by all the organisations involved. These guidelines cover the process from search through to recovery.
+
 
 
 - service: 'Social Media Dos & Don’ts'
   icon: /images/temp/temp-red.png
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      It is important to understand that there is a potential liability associated with the safety and wellbeing of individuals who respond to a call for volunteers on a social media site, the administrator for the social media site can be legally held to account should there be any mishap to an individual that responds to the request for volunteers.
   content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-
+      Social networking users do not enjoy any of the immunity granted to social networking sites under the law, and the families need to be made aware of the fact that they need to be careful to always act appropriately when posting messages or files to the sites. Chief areas of concern are through the posting of defamatory content, or content that infringes on intellectual property rights.
+      </br>
+      </br>
+      Relatives also need to be extremely careful about information which is posted on social media outlets. There is a high risk of vulnerable individuals attaching themselves to family members through such social media and potentially adding to the family’s distress. Likewise, there is tendency for inaccurate information being passed on social media, which cannot be managed and can add to the stress of the situation.
 
 - service: 'Elected Representatives'
   icon: /images/temp/temp-red.png
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting. 
+
   content: |
-        Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
+        Elected representatives should refer any media enquiries to the Council/MLA Press Officer, who in turn will liaise with the PSNI. The Samaritans guidelines are critical in any response and elected representatives need to be mindful of the wider search and recovery process underway.
+
 
 
 - service: 'Issues with Memorials'
   icon: /images/temp/temp-red.png
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  content: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
+  content: |
+      There is clear evidence that the presence of memorials increases the risk of further suicidal behaviour and tends to attract the attention of extremely vulnerable individuals.
+      <br/><br/>
+      Evidence demonstrates that the erection of memorials at the scene where an individual has taken their own life by suicide increases the risk of triggering copycat attempts/deaths. For vulnerable people the memorial can be seen as an indicator of a location to where they can go to take their own lives. A memorial can take the form of flowers at the point where the individual entered the water, posters highlighting the missing person, establishment of gathering points in the person’s name and so forth. If a memorial is erected on public property without permission, then it should be remembered that authorities have the right to remove the memorial. Where a memorial is erected, and there are concerns about further risks of suicide or public safety the family should be asked to remove the memorial in the first instance and advised (if they refuse) that it will then be removed by the relevant authorities.
+
       
 
 - service: 'Remembering loved ones'
