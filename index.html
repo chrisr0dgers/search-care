@@ -16,31 +16,25 @@ navigation_weight: 1
     
     <div class="row d-flex justify-content-center">
         <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
+            <img src="{{site.url}}/images/memorial-icon@2x.png" alt="">
+            <h3 class="fontColor--orange">Memorials & Media</h3>
+            <p>When someone close to us passes away suddenly, our natural reaction is of shock, disbelief and emotional pain.</p>
+            <img src="{{site.url}}/images/arrow-right@2x.png" alt="">
+            <a class="hiddenLink" href="/memorials/"></a>
+        </div>
+        <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
             <img src="{{site.url}}/images/selfcare-icon@2x.png" alt="">
             <h3 class="fontColor--yellow">Self Care</h3>
-            <p>adipiscing elit, sed diam
-                Introduction. Lorem ipsum
-                dolor sit amet, consectetuer</p>
+            <p>It is recognised that this will be an extremely stressful and distressing time for the family and it is important that everyone looks after their own wellbeing throughout this process.</p>
                 <img src="{{site.url}}/images/arrow-right@2x.png" alt="">
                 <a class="hiddenLink" href="/self-care/"></a>
         </div>
         <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
             <img src="{{site.url}}/images/safesearch-icon@2x.png" alt="">
             <h3 class="fontColor--green">Safe Search</h3>
-            <p>adipiscing elit, sed diam
-                Introduction. Lorem ipsum
-                dolor sit amet, consectetuer</p>
+            <p>It is recognised that this will be an extremely stressful and distressing time for the family and it is important that everyone looks after their own wellbeing throughout this process.</p>
                 <img src="{{site.url}}/images/arrow-right@2x.png" alt="">
                 <a class="hiddenLink" href="/safe-search/"></a>
-        </div>
-        <div class="text-center col-lg-3 col-md-3 col-sm-12 position-relative">
-            <img src="{{site.url}}/images/memorial-icon@2x.png" alt="">
-            <h3 class="fontColor--orange">Memorials & Media</h3>
-            <p>adipiscing elit, sed diam
-                Introduction. Lorem ipsum
-                dolor sit amet, consectetuer</p>
-                <img src="{{site.url}}/images/arrow-right@2x.png" alt="">
-                <a class="hiddenLink" href="/memorials/"></a>
         </div>
     </div>
 </div>
@@ -50,18 +44,16 @@ navigation_weight: 1
 <div class="container-fluid">
     <div class="row ">
         <div class="col-lg-6 col-md-6 box_green introBox position-relative">
-            <h3>Search Care</h3>
-            <p>There are so many factors that go into a search of your loved one. The aim of this platform is to help you
-                understand
-                the process every step of the way. The following Search Stream outlines the stages of a typical Search & Rescue.
+            <h3>Search Stream</h3>
+            <p>There are so many factors that go into a search of your loved one. The aim of this platform is to help you understand the process every step of the way. The following Search Stream outlines the stages of a typical Search  Rescue.
             </p>
-            <a class="hiddenLink" href="/"></a>
+            <!-- <a class="hiddenLink" href="/"></a> -->
         </div>
         <div class="col-lg-6 col-md-6 box_red introBox text-center position-relative">
             <h3>Did you know?</h3>
             <img src="{{site.url}}/images/logo-white.svg" alt="">
-            <p><span>Unauthorised searches <br> can adversly effect <br> professional searches.</span></p>
-            <a class="hiddenLink" href="/"></a>
+            <p><span>Unauthorised searches<br> can adversely effect<br> professional searches.</span></p>
+            <!-- <a class="hiddenLink" href="/"></a> -->
         </div>
     </div>
 </div>
@@ -74,7 +66,7 @@ navigation_weight: 1
         <h2 class="fontColor--green">During the search</h2>
     </div>
 
-    <div class="row comic_single">
+    <!-- <div class="row comic_single">
         <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-8 hideme">
             <img src="{{site.url}}/images/temp/comic-1.png" alt="">
         </div>
@@ -90,10 +82,10 @@ navigation_weight: 1
         <div class="col-lg-4 col-md-6 col-sm-4 hideme">
             <img src="{{site.url}}/images/temp/comic-4.png" alt="">
         </div>
-    </div>
+    </div> -->
 
 
-    <!-- {% for comic_strip in site.data.comic %}
+    {% for comic_strip in site.data.comic %}
         {% assign mod = forloop.index | modulo: 2 %}
         {% if mod == 0 %}
             <div class="row comic_single">
@@ -136,7 +128,7 @@ navigation_weight: 1
                 </div>
             </div>
         {% endif %}
-    {% endfor %} -->
+    {% endfor %}
     
 </div>
 

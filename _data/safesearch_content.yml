@@ -40,7 +40,7 @@
 - service: 'Boat safety advice'
   icon: /images/boat-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+    
   content: |
         Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
   orderedlist:

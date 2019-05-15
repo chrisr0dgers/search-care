@@ -1,34 +1,33 @@
 - service: 'Are you at risk?'
   icon: /images/risk-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      If you require support you should contact your GP immediately. If you or any of your relatives are in crisis then you should contact the <u>Lifeline Crisis Service 0808 808 8000 (free to call 24/7)</u> and they will provide you with immediate support.
   content: |
-      In particular, if they are withdrawn, demonstrating extreme sadness, hopelessness, express negative comments about themselves and/or, talk about going away, putting personal affairs in order and so forth, a copy of ’Concerned About Suicide’ is available and contains information on what should be said to help someone in this situation.
-  download: /
+      
+
 
 - service: 'Family Support'
   icon: /images/family-support-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      It is critical that there is clarity of communication and contact with the family, from the initial contact through to post recovery support.
   content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  download:
+      This will ensure that the family are supported throughout the process, kept informed about developments and reduce the risk of possible actions which could be deemed as detrimental to the search operation or put other individuals at risk.
+
 
 - service: 'Postvention Support'
   icon: /images/postvention-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  download:
+      Once the body of your loved one has been recovered and laid to rest, you are likely to continue to experience a deep sense of loss. This is a normal response and you can feel the impact of grief for some time. However, Specialist services are available to support you through such loss, from the Western Health and Social Services Trust (WHSCT) and you are urged to contact them and they will be able to support you through the process. The local point of contact is Fidelis Simpson and can be contacted on 07841569000.
+
 
 - service: 'Lifeline Crisis Service Info'
   icon: /images/lifeline-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      <b>Lifeline Crisis Service 0808 808 8000</b> (free to call 24/7) and encouraged to share the contact details with other family members and close associates of the missing person.
   content: |
         Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
-  download:
+
 
 - service: 'Health Tips'
   icon: /images/health-icon.svg
@@ -36,7 +35,7 @@
     
   content: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
-  download:
+
 
 - service: 'Relevant Search Partner Contacts'
   icon: /images/partner-contacts-icon.svg
@@ -44,4 +43,3 @@
 
   content: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
-  download: 

@@ -17,7 +17,6 @@ navigation_weight: 4
     </div>
 </div>
 
-
 <div class="accordion" id="accordionExample">
     <div class="container-fluid">
         <div class="row">
@@ -31,21 +30,32 @@ navigation_weight: 4
                         <p class="services_single_blurb">{{safesearch_single.blurb}}</p>
                         <p>{{safesearch_single.content}}</p>
 
+                        <ul>
+                        {% for item in safesearch_single.orderedlist %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                        </ul>
                         <!-- {% if safesearch_single.orderedlist %} -->
-                            <ul>
-                            <!-- {% for safesearch_single in site.data.safesearch_content %} -->
-                                {% for item in safesearch_single.orderedlist %}
-                                    <li>{{item}}</li>
-                                {% endfor %}
+                            
+                            <!-- {% for service in site.data.safesearch_content %} -->
+                                <!-- <ul>
+                                    {% for item in service.orderedlist %}
+                                        <li>{{item}}</li>
+                                    {% endfor %}
+                                    <br><br>
+                                </ul> -->
                             <!-- {% endfor %} -->
-                            </ul>
+                            
                         <!-- {% endif %} -->
 
                         {% if safesearch_single.download %}
-                        <div class="services_dl green position-relative">
-                            <h3>Download</h3>
-                            <a class="hiddenLink" href="{{safesearch_single.download}}"></a>
-                        </div>
+                            <div class="services_dl green position-relative">
+                                <h3>Download</h3>
+                                <a class="hiddenLink" href="{{safesearch_single.download}}"></a>
+                            </div>
+                        {% endif %}
+                        {% if safesearch_single.extracontent %}
+                            {{safesearch_single.extracontent}}
                         {% endif %}
                         
                     </div>

@@ -12,7 +12,7 @@ navigation_weight: 2
         </div>
         <div class="col-lg-5 insideHeader_content">
             <h1>{{ page.title | escape }}</h1>
-            <p>When someone close to us passes away suddenly, our natural reaction is of shock, disbelief and emotional pain. A common reaction is to want to do something to remember and celebrate the life of the person who has died. Some people may wish to hold remembrance events or memorials to celebrate their loved one’s life. While this can help people to grieve, it is important to note that, when someone has taken their own life, the impact on their family, friends and community can leave people very vulnerable.</p>
+            <p>When someone close to us passes away suddenly, our natural reaction is of shock, disbelief and emotionalpain. A common reaction is to want to do something to remember and celebrate the life of the person who has died. Somepeople may wish to hold remembrance events or memorials to celebrate their loved one’s life. While this can help people togrieve it is can leave people very vulnerable.</p>
         </div>
     </div>
 </div>
@@ -25,9 +25,26 @@ navigation_weight: 2
             <div id="fullContent" class="col-lg-10 offset-lg-1">
                 <div id="collapse{{counttwo}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="services_single">
-                        <h2>{{memorial_single.service}}</h2>
-                        <p>{{memorial_single.blurb}}</p>
+                        <h1>{{memorial_single.service}}</h1>
+                        <p class="services_single_blurb">{{memorial_single.blurb}}</p>
                         <p>{{memorial_single.content}}</p>
+                        
+                        <ul>
+                            {% for item in memorial_single.orderedlist %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+
+                        {% if memorial_single.download %}
+                            <div class="services_dl green position-relative">
+                                <h3>Download</h3>
+                                <a target="_blank" class="hiddenLink" href="{{memorial_single.download}}"></a>
+                            </div>
+                        {% endif %}
+                        {% if memorial_single.extracontent %}
+                            {{memorial_single.extracontent}}
+                        {% endif %}
+
                     </div>
                 </div>
             </div>

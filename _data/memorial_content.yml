@@ -1,25 +1,28 @@
 - service: 'Vulnerable People'
   icon: /images/vunerable-icon.svg
-  blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  blurb: >
+      It is normal that those associated with the missing person would experience emotional pain and demonstrate signs of distress; however, it is important to check with the person how they are feeling. 
   content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      In particular, if they are withdrawn, demonstrating extreme sadness, hopelessness, express negative comments about themselves and/or, talk about going away, putting personal affairs in order and so forth, a copy of ’Concerned About Suicide’ is available and contains information on what should be said to help someone in this situation. <br><br> In the first instance if an individual is identified as being a person of concern, they should be given the Lifeline Crisis Response number, 0808 808 8000, or a telephone call can be made directly into the service on their behalf. Irrespective of this action, the appropriate agency should be alerted so that support can be provided in a timely and appropriate manner. The individual should also be encouraged to speak to their GP as soon as possible.
+  download: http://www.publichealth.hscni.net/sites/default/files/Concerned_about_suicide_10.17.pdf
 
 
 - service: 'Dealing with the Media'
   icon: /images/dealing-media-icon.svg
-  blurb: |
-      In cases of suspected suicide or undetermined intent the Samaritans’ Media Guidance for the discussion and reporting of suicide 1 should be applied. The key messages from the guidelines are
+  blurb: >
+      It is important to understand that there is a potential liability associated with the safety and wellbeing of individuals who respond to a call for volunteers on a social media site, the administrator for the social media site can be legally held to account should there be any mishap to an individual that responds to the request for volunteers.
   content: |
-        1. Think about the impact of the coverage on your audience <br/>
-        2. Exercise caution when referring to the methods and context of the death <br/>
-        3. Avoid over simplification <br/>
-        4. Avoid melodramatic descriptors of the death and/or its aftermath <br/>
-        5. Aim for non-sensational, sensitive coverage <br/>
-        6. Consider carefully the placement and illustration of media reports <br/>
-        7. Educate and Inform <br/><br/>
+        Social networking users do not enjoy any of the immunity granted to social networking sites under the law, and the families need to be made aware of the fact that they need to be careful to always act appropriately when posting messages or files to the sites. Chief areas of concern are through the posting of defamatory content, or content that infringes on intellectual property rights. <br> <br> Relatives also need to be extremely careful about information which is posted on social media outlets. There is a high risk of vulnerable individuals attaching themselves to family members through such social media and potentially adding to the family’s distress. Likewise, there is tendency for inaccurate information being passed on social media, which cannot be managed and can add to the stress of the situation.
+  orderedlist:
+        - Think about the impact of the coverage on your audience.
+        - Exercise caution when referring to the methods and context of the death.
+        - Avoid over simplification
+        - Avoid melodramatic descriptors of the death and/or its aftermath
+        - Aim for non-sensational, sensitive coverage
+        - Consider carefully the placement and illustration of media reports
+        - Educate and Inform
 
-        The media guidelines should be applied in all media interaction and correspondence relating to the details of the incident and any related searches, by all the organisations involved. These guidelines cover the process from search through to recovery.
+        
 
 
 
@@ -46,10 +49,8 @@
 - service: 'Issues with Memorials'
   icon: /images/issues-icon.svg
   blurb: |
-      Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
+      Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action. There is clear evidence that the presence of memorials increases the risk of further suicidal behaviour and tends to attract the attention of extremely vulnerable individuals.
   content: |
-      There is clear evidence that the presence of memorials increases the risk of further suicidal behaviour and tends to attract the attention of extremely vulnerable individuals.
-      <br/><br/>
       Evidence demonstrates that the erection of memorials at the scene where an individual has taken their own life by suicide increases the risk of triggering copycat attempts/deaths. For vulnerable people the memorial can be seen as an indicator of a location to where they can go to take their own lives. A memorial can take the form of flowers at the point where the individual entered the water, posters highlighting the missing person, establishment of gathering points in the person’s name and so forth. If a memorial is erected on public property without permission, then it should be remembered that authorities have the right to remove the memorial. Where a memorial is erected, and there are concerns about further risks of suicide or public safety the family should be asked to remove the memorial in the first instance and advised (if they refuse) that it will then be removed by the relevant authorities.
 
       
@@ -57,7 +58,41 @@
 - service: 'Remembering loved ones'
   icon: /images/remembering-icon.svg
   blurb: |
-      There are safe ways to remembering a loved one.
+      There are ways to remembering a loved one.
   content: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
-      
+  extracontent: >
+      <b>Memorial events such as vigils, walks or other activities</b>
+            <br>
+            Some common forms of remembrance include:
+            <br>- <b>memorial walks </b>
+            <br>- <b>fundraising events</b>
+            <br>- <b>sports events</b>
+            <br>- <b>books of remembrance</b> 
+            <br>
+            <br>
+            These can all be beneficial to both the family and the local community; however we would advise that any event organised focuses clearly on the celebration of the person’s life and not on how they died.
+            <br>
+            <br>
+            We would recommend that support is provided and clearly highlighted during any event. This could be in the form of having a trained counsellor available and/or providing cards/ leaflets with support information. Your local HSC Trust can advise you on what support services and printed materials may be available – see page 8 for details.
+            <br>
+            <br>
+            <b>Memorial events such as vigils, walks or other activities</b>
+            <br>
+            If you wish to open a book of remembrance, we would advise that you speak to the family in advance and agree the length of time the book will remain open and where the book will be stored in the long term, ie if the family wish to keep the book at home or have the book stored at the club/school/church etc.
+            <br>
+            <br>
+            <b>Memorial events such as vigils, walks or other activities</b>
+            <br>
+            Money raised through fund raising events can be used to help the family with funeral costs and/or a donation to a local charity in remembrance of the person who has died.
+            <br>
+            <br>
+            <b>T-shirts, football tops etc</b>
+            <br>
+            Another type of memorial is the creation of clothing (t-shirts, sweatshirts or football tops) with the name and/or a picture of the deceased. For the individuals who create the shirts, the intent is likely to remember their deceased loved one or peer. There is potentially a negative impact on vulnerable individuals causing further distress. In order to minimise risks, community leaders need to identify the individuals who organised the printing of the shirts, meet with them, and explain the potential inadvertent impact this can have on others. Also ensure that they have received approval from the family on when and where to wear these memorials. Families may wish for the memorials only to be worn on the day of the funeral.
+            <br>
+            <br>
+            <b>A note about balloons</b>
+            <br>
+            A common act of remembrance is to use balloons either placed at a site or as a balloon release (this is where a number of inflated balloons are released together). If you choose to use a foil balloon at a particular site, we strongly advise that a balloon weight is used to minimise the chances of the balloon floating away. Foil balloons are not biodegradable and may harm the environment. If you wish to do a balloon release, we would advise only latex balloons are used as these are biodegradable, and helium gas is used as it is lighter than air and therefore ensures the balloons will float up. Balloons should be released singly and not tied together as this too may cause harm to the environment. If helium gas is being used, please ensure that it is used by a trained individual and appropriate care and attention is given. 
+            <br>
