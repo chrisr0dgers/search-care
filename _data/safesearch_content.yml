@@ -1,47 +1,66 @@
-- service: 'Vulnerable People'
-  icon: /images/temp/temp-green.png
+- service: 'Public Safety'
+  icon: /images/public-safety-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        Running any unauthorised search operations is both a risk to public safety and will potentially impede the work of the official search and recovery operation.
   content: |
-      In particular, if they are withdrawn, demonstrating extreme sadness, hopelessness, express negative comments about themselves and/or, talk about going away, putting personal affairs in order and so forth, a copy of ’Concerned About Suicide’ is available and contains information on what should be said to help someone in this situation.
-  download: /
+      The high visibly of such search operations also heightens the risk of ‘copycat’ suicidal behaviour, especially in close proximity to where the missing person entered the water, e.g. the bridges and river banks.  Individuals who may be extremely vulnerable are usually attracted to such gatherings and to places associated with the loss of an individual.  Please note that statutory authorities cannot endorse or support unauthorised searches. However, if relatives insist in doing their own search, then FSR will issue the family, without prejudice, with safety guidelines which must be adhered to.
+  download: 
 
-- service: 'Dealing with the Media'
-  icon: /images/temp/temp-green.png
-  blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+- service: 'General Guidelines'
+  icon: /images/guidlines-icon.svg
+  orderedlist:
+     - Always stay in a group & let someone know the area you are searching and notify them when you have completed your search. 
+     - Persons searching should wear appropriate clothing for the weather conditions.
+     - It is recommend that persons searching near the water’s edge wear a Life Jacket & that all other searchers wear high-vis clothing to enable boat crew to observe them on river banks.
+     - If you have access to a pole or walking stick please use it to test the ground in front of you.
+     - Always carry a mobile phone.
+     - Be careful along the river’s edge. Search between the river’s edge and high water line.
+     - If you approach rocks or large tress, try to walk around, not over, unless this means going to close to the edge.
+     - DO NOT enter the Glar/mud. You may become stuck & need rescued.
+     - DO NOT wade or enter the water.
+     - DO NOT cross over any railings under any circumstances.
+     - DO NOT cross over onto or walk along Rail Tracks.
+     - In the event of finding any items of clothing etc. DO NOT TOUCH or remove. Please contact the PSNI on 101 who will in turn alert Foyle Search & Rescue 02871 313800.
+     - Check the tidal tables and weather forecast prior to commencing the search. If you need any advice on tides please contact Foyle Search.
+     - People who are searching are reminded that the river banks are extremely hazardous after dark.
+     - Please when searching along railings or on any of the Bridges DO NOT lean over the railings as CCTV operators can not differentiate between a genuine searcher or a person who may be in need of help requiring immediate activation of the emergency services.
   download:
 
-- service: 'Social Media Dos & Don’ts'
-  icon: /images/temp/temp-green.png
+- service: 'Diver exclusion zone-safety notice'
+  icon: /images/diver-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        As searches progress, Police divers will at times be used in support of the current planned searches.
   content: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  download:
+      To ensure the safety of divers entering or exiting the water and so that no unnecessary disturbance takes place that would impact the underwater search, an exclusion zone around the dive boat is set up.
+  orderedlist:
+        - To indicate that this is taking place the dive boat will display an internationally recognised flag that is Blue and White.
+        - In this event Harbour Radio are informed that a search dive is under way.
+        - It is vital that all boats, jet skis etc; on the River Foyle adhere to the exclusion zone and any directions given by FSR safety boats & crew.
 
-- service: 'Elected Representatives'
-  icon: /images/temp/temp-green.png
+- service: 'Boat safety advice'
+  icon: /images/boat-icon.svg
   blurb: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
         Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
-  download:
+  orderedlist:
+        - <b>Wear a lifejacket</b><br>It could save your life! You never know what might happen when you are out in a boat or jet ski so always wear a lifejacket. Make sure it is the right size for you & any passengers on board, fasten all straps properly (including the crotch strap) so they don't feel loose.
+        - <b>Check the engine and fuel</b><br>If your boat has an engine, carry out pre-launch checks and make sure you have enough fuel for the duration of your search and your boat/jet ski is safe to launch and wear your kill cord !
+        - <b>Tell someone the area of the River you are checking</b><br>Always notify somebody where you are going and when you will be back. They will be able to raise the alarm if you lose contact or are not back on time.
 
-- service: 'Issues with Memorials'
-  icon: /images/temp/temp-green.png
+- service: 'What to do in an emergancy'
+  icon: /images/emergancy-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+      Do you know what to do if there is an Emergency and you need to call for help?
   content: |
-      Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
-  download:
+      Here are 4 ways you can contact someone in an emergency
+  orderedlist:
+    - A whistle to alert persons on the riverbank or craft nearby.
+    - A VHF radio-it is a requirement to notify Harbour Radio on VHF Channel 14 when going on water and coming off water.
+    - A mobile phone-call 999 in an emergency or 101 in the case of a non-emergency. Foyle Search can also be contacted on 02871 313800 between 0900-1700 Mon to Fri, as well as between 2130-0300 on a Thursday, Friday and Saturday night.
+    - A Flare only to be used in an Emergency situation.
 
-- service: 'Remembering loved ones'
-  icon: /images/temp/temp-green.png
-  blurb: |
-      There are safe ways to remembering a loved one.
+- service: 'Body recovery process'
+  icon: /images/body-recovery-icon.svg
   content: |
-      Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
-  download: 
+      If a body is recovered from the water, the PSNI and FSR will follow agreed established protocols and will ensure that the family are kept fully informed on developments and when a formal identification process can commence. The FLO will be the key point of contact throughout this process. Family and community representatives should be discouraged from actively participating in the recovery process and leave this to the PSNI and FSR to complete.

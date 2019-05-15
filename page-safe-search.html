@@ -12,7 +12,7 @@ navigation_weight: 4
         </div>
         <div class="col-lg-5 insideHeader_content">
             <h1>{{ page.title | escape }}</h1>
-            <p>It is recognised that this will be an extremely stressful and distressing time for the family and it is important that everyone looks after their own wellbeing throughout this process. Shock and grief are normal reactions to such distressing news. It is important that you look after one another and support each other through the process.</p>
+            <p>It is acknowledged that this is an extremely difficult time for the family, and naturally relatives will want to do all that they can to help find their loved one. However, it is important that the safety of the family and thewid public is also protected at all times during this search process.</p>
         </div>
     </div>
 </div>
@@ -28,14 +28,24 @@ navigation_weight: 4
                     data-parent="#accordionExample">
                     <div class="services_single">
                         <h1>{{safesearch_single.service}}</h1>
-                        <p>{{safesearch_single.blurb}}</p>
+                        <p class="services_single_blurb">{{safesearch_single.blurb}}</p>
                         <p>{{safesearch_single.content}}</p>
+
+                        <!-- {% if safesearch_single.orderedlist %} -->
+                            <ul>
+                            <!-- {% for safesearch_single in site.data.safesearch_content %} -->
+                                {% for item in safesearch_single.orderedlist %}
+                                    <li>{{item}}</li>
+                                {% endfor %}
+                            <!-- {% endfor %} -->
+                            </ul>
+                        <!-- {% endif %} -->
+
                         {% if safesearch_single.download %}
                         <div class="services_dl green position-relative">
                             <h3>Download</h3>
                             <a class="hiddenLink" href="{{safesearch_single.download}}"></a>
                         </div>
-                            
                         {% endif %}
                         
                     </div>
@@ -52,7 +62,9 @@ navigation_weight: 4
             {% for safesearch_single in site.data.safesearch_content %}
 
             <div class="col-md-6 services_btn text-center position-relative">
-                <img src="{{safesearch_single.icon}}" alt="">
+                <div class="services_btn_imageWrap d-flex align-items-center">
+                    <img src="{{safesearch_single.icon}}" alt="">
+                </div>
                 <h3>{{safesearch_single.service}}</h3>
                 <p>{{safesearch_single.blurb}}</p>
                 <a href="">MORE</a>

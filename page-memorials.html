@@ -42,7 +42,9 @@ navigation_weight: 2
             {% for memorial_single in site.data.memorial_content %}
     
             <div class="col-md-6 services_btn text-center position-relative">
-                <img src="{{memorial_single.icon}}" alt="">
+                <div class="services_btn_imageWrap d-flex align-items-center">
+                    <img src="{{memorial_single.icon}}" alt="">
+                </div>
                 <h3>{{memorial_single.service}}</h3>
                 <p>{{memorial_single.blurb}}</p>
                 <a href="">MORE</a>

@@ -337,14 +337,23 @@ h1,h2,h3,h4,h5{
     &_btn{
         background-color: #fff;
         padding: 60px;
+        &_imageWrap{
+            height: 189px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        img{
+            max-width: 135px;
+            max-height: 180px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
         p{
             max-width: 450px;
             margin-left: auto;
             margin-right: auto;
-        }
-        img{
-            margin-bottom: 20px;
-            // width: 100px;
         }
         &:nth-of-type(4n+2),&:nth-of-type(4n+3){
             background-color: $grey;
@@ -373,7 +382,24 @@ h1,h2,h3,h4,h5{
         }
     }
     &_single{
+        h1{
+            margin-bottom: 30px;
+        }
         padding: 90px 0;
+        &_blurb{
+            font-size: 1.412em;
+        }
+        ul{
+            list-style-type: decimal;
+            padding: 0;
+            margin: 0;
+            margin: 0 0 0 20px;
+            font-size: 1.412em;
+            li{
+                margin-bottom: 20px;
+                padding-left: 15px;
+            }
+        }
     }
 }
 

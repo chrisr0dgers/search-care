@@ -1,47 +1,47 @@
-- service: 'Vulnerable People'
-  icon: /images/temp/temp-yellow.png
+- service: 'Are you at risk?'
+  icon: /images/risk-icon.svg
   blurb: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
       In particular, if they are withdrawn, demonstrating extreme sadness, hopelessness, express negative comments about themselves and/or, talk about going away, putting personal affairs in order and so forth, a copy of ’Concerned About Suicide’ is available and contains information on what should be said to help someone in this situation.
   download: /
 
-- service: 'Dealing with the Media'
-  icon: /images/temp/temp-yellow.png
+- service: 'Family Support'
+  icon: /images/family-support-icon.svg
   blurb: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   download:
 
-- service: 'Social Media Dos & Don’ts'
-  icon: /images/temp/temp-yellow.png
+- service: 'Postvention Support'
+  icon: /images/postvention-icon.svg
   blurb: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   download:
 
-- service: 'Elected Representatives'
-  icon: /images/temp/temp-yellow.png
+- service: 'Lifeline Crisis Service Info'
+  icon: /images/lifeline-icon.svg
   blurb: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
         Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
   download:
 
-- service: 'Issues with Memorials'
-  icon: /images/temp/temp-yellow.png
+- service: 'Health Tips'
+  icon: /images/health-icon.svg
   blurb: |
-      Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+    
   content: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
   download:
 
-- service: 'Remembering loved ones'
-  icon: /images/temp/temp-yellow.png
+- service: 'Relevant Search Partner Contacts'
+  icon: /images/partner-contacts-icon.svg
   blurb: |
-      There are safe ways to remembering a loved one.
+
   content: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
   download: 

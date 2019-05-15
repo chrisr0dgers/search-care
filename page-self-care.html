@@ -55,7 +55,9 @@ navigation_weight: 3
             {% for selfcare_single in site.data.selfcare_content %}
 
             <div class="col-md-6 services_btn text-center position-relative">
-                <img src="{{selfcare_single.icon}}" alt="">
+                <div class="services_btn_imageWrap d-flex align-items-center">
+                    <img src="{{selfcare_single.icon}}" alt="">
+                </div>
                 <h3>{{selfcare_single.service}}</h3>
                 <p>{{selfcare_single.blurb}}</p>
                 <a href="">MORE</a>

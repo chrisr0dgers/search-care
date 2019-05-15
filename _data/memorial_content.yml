@@ -1,5 +1,5 @@
 - service: 'Vulnerable People'
-  icon: /images/temp/temp-red.png
+  icon: /images/vunerable-icon.svg
   blurb: |
       Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
   content: |
@@ -7,7 +7,7 @@
 
 
 - service: 'Dealing with the Media'
-  icon: /images/temp/temp-red.png
+  icon: /images/dealing-media-icon.svg
   blurb: |
       In cases of suspected suicide or undetermined intent the Samaritans’ Media Guidance for the discussion and reporting of suicide 1 should be applied. The key messages from the guidelines are
   content: |
@@ -24,7 +24,7 @@
 
 
 - service: 'Social Media Dos & Don’ts'
-  icon: /images/temp/temp-red.png
+  icon: /images/media-donts-icon.svg
   blurb: |
       It is important to understand that there is a potential liability associated with the safety and wellbeing of individuals who respond to a call for volunteers on a social media site, the administrator for the social media site can be legally held to account should there be any mishap to an individual that responds to the request for volunteers.
   content: |
@@ -34,7 +34,7 @@
       Relatives also need to be extremely careful about information which is posted on social media outlets. There is a high risk of vulnerable individuals attaching themselves to family members through such social media and potentially adding to the family’s distress. Likewise, there is tendency for inaccurate information being passed on social media, which cannot be managed and can add to the stress of the situation.
 
 - service: 'Elected Representatives'
-  icon: /images/temp/temp-red.png
+  icon: /images/elected-icon.svg
   blurb: |
         Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting. 
 
@@ -44,7 +44,7 @@
 
 
 - service: 'Issues with Memorials'
-  icon: /images/temp/temp-red.png
+  icon: /images/issues-icon.svg
   blurb: |
       Sometimes relatives want to erect a notice or some form of recognition of their loved one, however it is strongly advised against such action.
   content: |
@@ -55,7 +55,7 @@
       
 
 - service: 'Remembering loved ones'
-  icon: /images/temp/temp-red.png
+  icon: /images/remembering-icon.svg
   blurb: |
       There are safe ways to remembering a loved one.
   content: |
