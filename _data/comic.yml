@@ -1,15 +1,15 @@
 - comic: 'CONFUSING, FRUSTRATING, LOTS OF VOICES'
-  image: https://via.placeholder.com/468x200
+  image: /images/comic/comic-1.svg
   body: |
     Your loved one had been presumed missing for more than an hour. In situations like these, it can be confusing and frustrating to hear lots of voices when you just want your loved one back. Hopefully this information can clear up the professional advice and people who are there to help you during this time.
 
 - comic: 'YOU WILL HEAR FROM A GROUP OF PROFESSIONALS'
-  image: https://via.placeholder.com/468x200
+  image: /images/comic/comic-2.svg
   body: |
     If you haven’t already, you will hear from a group of professionals who will do everything in their power to find your missing loved one. As quickly as possible this team of professionals will get together to use the best skills and using all the energy and efforts they have in finding your loved one. A Family Liaison Officer (FLO) from the PSNI will come to you and your family with more information (leaflets) and provide contact details of those who can offer support to you and your family (link to trust family liaison officer and the support they provide) during this time.        
 
 - comic: 'SOMEONE WILL COME AND SEE YOU AND OFFER SUPPORT AVENUES OF SELF CARE'
-  image: https://via.placeholder.com/468x200
+  image: /images/comic/comic-3.svg
   body: |
     If you want them to agencies will come back and see you, each agency can offer support (link to trust support information) and provide avenues of self-care for yourself, your family and community.
     <br>
@@ -19,12 +19,12 @@
     *24-48 hours – provide support and referral to those vulnerable, inform all agencies, inform elected representatives (all media enquires should be directed to the PSNI)
 
 - comic: 'YOU MIGHT BE ASKING FAMILY, FRIENDS, AND COMMUNITY FOR HELP'
-  image: https://via.placeholder.com/468x200
+  image: /images/comic/comic-4.svg
   body: |
     You might be asking your family, friends of your loved one or the community to help with the search. This might be doing more harm then good as more people around the river can cause distractions to the professionals trying to concentrate on finding your loved one.  
 
 - comic: 'Section title'
-  image: https://via.placeholder.com/468x200
+  image: /images/comic/comic-5.svg
   body: |
     This might be doing more harm then good as more people around the river can cause distractions to the professionals trying to concentrate on finding your loved one.
   extra: |
