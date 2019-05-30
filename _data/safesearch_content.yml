@@ -8,6 +8,7 @@
 
 - service: 'General Guidelines'
   icon: /images/guidlines-icon.svg
+  content: <h3><strong>Talk to your PSNI Family Officer before search if you must, please consider.</strong></h3>
   orderedlist:
      - Always stay in a group & let someone know the area you are searching and notify them when you have completed your search. 
      - Persons searching should wear appropriate clothing for the weather conditions.
@@ -31,6 +32,7 @@
   blurb: |
         As searches progress, Police divers will at times be used in support of the current planned searches.
   content: |
+      <h3><strong>Important safety notice to not effect divers searching for your loved one.</strong></h3>
       To ensure the safety of divers entering or exiting the water and so that no unnecessary disturbance takes place that would impact the underwater search, an exclusion zone around the dive boat is set up.
   orderedlist:
         - To indicate that this is taking place the dive boat will display an internationally recognised flag that is Blue and White.
@@ -42,6 +44,7 @@
   blurb: |
     
   content: |
+        <h3><strong>Its not safe to yourself and others at a time of a search to go onto the river un-coordinated please talk to Foyle Search and Rescue LINK before doing this they can advise you to not effect the search in an unsafe or distracting way.</strong></h3>
         Elected representatives can play a vital role in the search and recovery process in terms of supporting the family and community, as well as promoting appropriate messages about support and signposting.
   orderedlist:
         - <b>Wear a lifejacket</b><br>It could save your life! You never know what might happen when you are out in a boat or jet ski so always wear a lifejacket. Make sure it is the right size for you & any passengers on board, fasten all straps properly (including the crotch strap) so they don't feel loose.
@@ -63,4 +66,5 @@
 - service: 'Body recovery process'
   icon: /images/body-recovery-icon.svg
   content: |
+      <h3><strong>If a body is recovered from the water, the PSNI and FSR will ensure the family contact is kept fully informed on developments and when a formal identification process can commence.</strong></h3>
       If a body is recovered from the water, the PSNI and FSR will follow agreed established protocols and will ensure that the family are kept fully informed on developments and when a formal identification process can commence. The FLO will be the key point of contact throughout this process. Family and community representatives should be discouraged from actively participating in the recovery process and leave this to the PSNI and FSR to complete.

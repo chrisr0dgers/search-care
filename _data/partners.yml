@@ -5,14 +5,14 @@
   phone: 02890 9832 4732
   email: info@fsr.com
   body: |
-    Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+    Given their knowledge and experience of the river the family should collaborate directly with foyle search and rescue throughout the search process on search matters. Trust in their experience and ask their advice for anything related to a search.
 
 - partner: 'PSNI'
   logo: /images/temp-partner@2x.png
   phone: 02890 9832 4732
   email: info@psni.com
   body: |
-    Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+    Police Service of Northern will provide you a Family Liaison Officer. They are the key person to support your family. Go through them if you have concern’s regarding the search let, them deal with any media enquires at this time to protect your well being. Talk to them about any concerns they or a partner will be directed to help you.
 
 - partner: 'PHA'
   logo: /images/temp-partner@2x.png
@@ -26,7 +26,14 @@
   phone: 02890 9832 4732
   email: info@whsct.com
   body: |
-    Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Introduction. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+    The Western Trust will provide you a Family Liaison Officer if you're worried about your safety or the wellbeing of your family and friends talk to them about how they can help anyone you think may also be vulnerable at this time. If you need them to support you or anyone else ask for their help. If anyone needs immediate support get them to call the Lifeline Crisis Response number on 0808 808 8000, or a telephone call can be made directly on their behalf.
+
+- partner: 'CCI'
+  logo: /images/temp-partner@2x.png
+  phone: 02890 9832 4732
+  email: info@cci.com
+  body: |
+    City Centre Initiative will monitor the CCTV network on behalf of the Policing and Community Safety Partnership. They will watch camera's around the river Foyle which are used to monitor public safety, identify and respond to people at risk. They also will collaborate with the other professional’s involved in the search to ensure everyone is working together and help with challenges involving search process and community support.
 
 - partner: 'F&R'
   logo: /images/temp-partner@2x.png
